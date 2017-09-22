@@ -2,7 +2,9 @@
 让自己的名字在屏幕上移动
 
 """
+
 import os
+
 import time
 
 w1=["#   #   #   #   # #####   ##### ##### # #   # #   #"]
@@ -21,12 +23,11 @@ w7=[" # #  #   # #   # #####   #     ##### # #   # #####"]
 
  
 
-
 t=0
 
 while t<30:
 
-     i = os.system('cls')
+    i = os.system('cls')
 
     for i1 in w1:
 
@@ -74,10 +75,10 @@ while t<30:
 
         j.insert(0," ")
 
+        
+
     time.sleep(0.2)
 
     t+=1
 
     print(" ")
-    
-    """
