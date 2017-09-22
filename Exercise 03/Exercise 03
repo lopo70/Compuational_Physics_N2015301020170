@@ -26,7 +26,7 @@ t=0
 
 while t<30:
 
-    
+     i = os.system('cls')
 
     for i1 in w1:
 
