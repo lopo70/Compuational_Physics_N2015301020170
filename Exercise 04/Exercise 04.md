@@ -28,6 +28,7 @@ if v == b:
         break 
 ```
 其中v变量在while语句开头处定义为前一次输出的v值，通过比较下一次输出v值与b的值，可以判断速度是否已经不变（即达到终止速度）。
-最后用matplotlib画出曲线
 
-<div align=center><a href="https://i.loli.net/2017/09/29/59ce3a0267730.png">
+最后用matplotlib画出曲线
+<div align=center>![image](a href="https://i.loli.net/2017/09/29/59ce3a0267730.png")
+
