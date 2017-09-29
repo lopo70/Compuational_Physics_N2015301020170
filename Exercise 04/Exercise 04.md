@@ -31,4 +31,8 @@ if v == b:
 
 最后用matplotlib画出曲线
 <div align=center>![image](https://i.loli.net/2017/09/29/59ce3a0267730.png)
-
+ 
+<div align=left>
+ 
+ ## 3.思考总结
+ 
