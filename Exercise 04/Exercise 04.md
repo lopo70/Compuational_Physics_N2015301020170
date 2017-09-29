@@ -17,12 +17,17 @@ while v <= 10:
     t = t + h
 ```
 而为了便于之后绘出速度-时间图像，将循环中的两组数据分别存储于两个list中
-``` f.append(t)
+```python
+f.append(t)
     z.append(v)
  ```
 由于该题目速度具有一个有限范围，而另一个时间变量却没有范围。但是题目要求给出终止速度，就需要在while循环中加一个if判断语句，并且中止循环
-``` if v == b:
+```python 
+if v == b:
         print (d,b)
         break 
 ```
 其中v变量在while语句开头处定义为前一次输出的v值，通过比较下一次输出v值与b的值，可以判断速度是否已经不变（即达到终止速度）。
+最后用matplotlib画出曲线
+
+<div align=center><a href="https://i.loli.net/2017/09/29/59ce3a0267730.png">
