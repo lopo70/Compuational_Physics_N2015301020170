@@ -23,10 +23,10 @@ f.append(t)
  ```
 由于该题目速度具有一个有限范围，而另一个时间变量却没有范围。但是题目要求给出终止速度，就需要在while循环中加一个if判断语句，并且中止循环
 ```python 
-if v == b:
+ if v == b:
         print (d,b)
         break 
-```
+ ```
 其中v变量在while语句开头处定义为前一次输出的v值，通过比较下一次输出v值与b的值，可以判断速度是否已经不变（即达到终止速度）。
 最后用matplotlib画出曲线
 
@@ -37,9 +37,10 @@ if v == b:
  <div align=center><a href="https://www.codecogs.com/eqnedit.php?latex=v=-10e^{-t}&plus;10" target="_blank"><img src="https://latex.codecogs.com/gif.latex?v=-10e^{-t}&plus;10" title="v=-10e^{-t}+10" /></a>
 
 <div align=left>代码为
- ```python
- n = -10*py.exp(-t)+10
- m.append(n)
+
+```python
+    n = -10*py.exp(-t)+10
+    m.append(n)
 ```
 <div align=left>精确图像（橙色）与拟合图像（蓝色）为
 
