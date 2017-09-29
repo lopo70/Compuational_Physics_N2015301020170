@@ -35,4 +35,5 @@ if v == b:
  ## 3.思考总结
  微分方程精确解为
  <div align=center><a href="https://www.codecogs.com/eqnedit.php?latex=v=-10e^{-t}&plus;10" target="_blank"><img src="https://latex.codecogs.com/gif.latex?v=-10e^{-t}&plus;10" title="v=-10e^{-t}+10" /></a>
- 
+ <div align=left>精确图像（橙色）与拟合图像（蓝色）为
+  ![]
