@@ -30,7 +30,7 @@ if v == b:
 其中v变量在while语句开头处定义为前一次输出的v值，通过比较下一次输出v值与b的值，可以判断速度是否已经不变（即达到终止速度）。
 
 最后用matplotlib画出曲线
-<div align=center>![image](https://github.com/lopo70/Computational_Physics_N2015301020170/raw/master/Exercise 04/1.png)
+<div align=center>![image](https://github.com/lopo70/Computational_Physics_N2015301020170/raw/master/Exercise_04/1.png)
  
 <div align=left>
  
