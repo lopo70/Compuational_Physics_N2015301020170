@@ -36,6 +36,11 @@ if v == b:
  微分方程精确解为
  <div align=center><a href="https://www.codecogs.com/eqnedit.php?latex=v=-10e^{-t}&plus;10" target="_blank"><img src="https://latex.codecogs.com/gif.latex?v=-10e^{-t}&plus;10" title="v=-10e^{-t}+10" /></a>
 
+<div align=left>代码为
+ ```python
+ n = -10*py.exp(-t)+10
+ m.append(n)
+```
 <div align=left>精确图像（橙色）与拟合图像（蓝色）为
 
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2004/2.png)
