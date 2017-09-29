@@ -30,7 +30,7 @@ if v == b:
 其中v变量在while语句开头处定义为前一次输出的v值，通过比较下一次输出v值与b的值，可以判断速度是否已经不变（即达到终止速度）。
 最后用matplotlib画出曲线
 
-![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2004/1.png)
+<div align=center>![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2004/1.png)
  
  ## 3.思考总结
  微分方程精确解为
@@ -38,6 +38,6 @@ if v == b:
 
 <div align=left>精确图像（橙色）与拟合图像（蓝色）为
 
-![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2004/2.png)
+<div align=center>![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2004/2.png)
  
  <div align=left>可见用欧勒法绘出的图像十分接近精确解的图像。
