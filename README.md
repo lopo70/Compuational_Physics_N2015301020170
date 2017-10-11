@@ -5,3 +5,5 @@
 (https://github.com/lopo70/Computational_Physics_N2015301020170/tree/master/Exercise%2003)
 - [x] Exercise 04: Chapter 01 Problem 03 Terminal Velocity
 (https://github.com/lopo70/Computational_Physics_N2015301020170/tree/master/Exercise%2004)
+- [x] Exercise 05: Realistic Projectile Motion
+()
