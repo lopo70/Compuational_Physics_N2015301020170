@@ -14,4 +14,8 @@
 <div align=left>
  
  设炮弹初速为700m/s，发射角度为45°，<a href="http://www.codecogs.com/eqnedit.php?latex=\inline&space;\frac{B_{2}}{m}=4\times&space;10^{-5}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\inline&space;\frac{B_{2}}{m}=4\times&space;10^{-5}" title="\frac{B_{2}}{m}=4\times 10^{-5}" /></a>，绘制炮弹轨迹曲线，记录y=0时的炮弹x坐标。然后按题目要求改变初速大小为707m/s，再次绘制轨迹曲线，得到炮弹落地时x坐标。
+ y=0时的x坐标可用下式估算，其中<a href="http://www.codecogs.com/eqnedit.php?latex=\inline&space;r=-\frac{y_{n}}{y_{n&plus;1}}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\inline&space;r=-\frac{y_{n}}{y_{n&plus;1}}" title="r=-\frac{y_{n}}{y_{n+1}}" /></a>,<a href="http://www.codecogs.com/eqnedit.php?latex=\inline&space;y_{n}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\inline&space;y_{n}" title="y_{n}" /></a>大于0，<a href="http://www.codecogs.com/eqnedit.php?latex=\inline&space;y_{n&plus;1}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\inline&space;y_{n&plus;1}" title="y_{n+1}" /></a>小于0.
  
+<div align=center><a href="http://www.codecogs.com/eqnedit.php?latex=x_{l}=\frac{x_{n}&plus;rx_{n&plus;1}}{r&plus;1}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?x_{l}=\frac{x_{n}&plus;rx_{n&plus;1}}{r&plus;1}" title="x_{l}=\frac{x_{n}+rx_{n+1}}{r+1}" /></a>
+ 
+
