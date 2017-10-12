@@ -24,5 +24,23 @@
  
 <a href="http://www.codecogs.com/eqnedit.php?latex=F_{drag,y}=-B_{2}\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left&space;v_{y}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?F_{drag,y}=-B_{2}\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left&space;v_{y}" title="F_{drag,y}=-B_{2}\left | \vec{v}-\vec_{v_{wind}} \right |\left v_{y}" /></a>
  <div align=left>
-其中，<a href="http://www.codecogs.com/eqnedit.php?latex=\inline&space;\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\theta&space;}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\inline&space;\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\theta&space;}" title="\left | \vec{v}-\vec_{v_{wind}} \right |\left=\sqrt{v^{2}+v_{wind}^{2}-2vv_{wind}cos\theta }" /></a>,
-
+其中，<a href="http://www.codecogs.com/eqnedit.php?latex=\inline&space;\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\theta&space;}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\inline&space;\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\theta&space;}" title="\left | \vec{v}-\vec_{v_{wind}} \right |\left=\sqrt{v^{2}+v_{wind}^{2}-2vv_{wind}cos\theta }" /></a>,cos\theta =\frac{v_{y,i}}{v}
+ 
+## 代码思路
+ ### 不考虑风速影响
+ 递推公式的部分可以用while循环实现
+```python
+while y>=0:
+    vx=vx-a*v*vx*t
+    vy=vy-9.8*t-a*v*vy*t
+    x=x+vx*t
+    y=y+vy*t
+```
+为了计算炮弹落地距离，由公式<a href="http://www.codecogs.com/eqnedit.php?latex=x_{l}=\frac{x_{n}&plus;rx_{n&plus;1}}{r&plus;1}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?x_{l}=\frac{x_{n}&plus;rx_{n&plus;1}}{r&plus;1}" title="x_{l}=\frac{x_{n}+rx_{n+1}}{r+1}" /></a>可知，需要存储y小于0之前的y与x数据，代码如下
+```python
+    x1=x
+    y1=y
+    b=-y1/y
+    l=(x+b*x1)/(b+1)
+    print(l)
+```
