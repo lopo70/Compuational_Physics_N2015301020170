@@ -17,5 +17,11 @@
  y=0时的x坐标可用下式估算，其中<a href="http://www.codecogs.com/eqnedit.php?latex=\inline&space;r=-\frac{y_{n}}{y_{n&plus;1}}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\inline&space;r=-\frac{y_{n}}{y_{n&plus;1}}" title="r=-\frac{y_{n}}{y_{n+1}}" /></a>,<a href="http://www.codecogs.com/eqnedit.php?latex=\inline&space;y_{n}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\inline&space;y_{n}" title="y_{n}" /></a>大于0，<a href="http://www.codecogs.com/eqnedit.php?latex=\inline&space;y_{n&plus;1}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\inline&space;y_{n&plus;1}" title="y_{n+1}" /></a>小于0.
  
 <div align=center><a href="http://www.codecogs.com/eqnedit.php?latex=x_{l}=\frac{x_{n}&plus;rx_{n&plus;1}}{r&plus;1}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?x_{l}=\frac{x_{n}&plus;rx_{n&plus;1}}{r&plus;1}" title="x_{l}=\frac{x_{n}+rx_{n+1}}{r+1}" /></a>
+ <div align=left>
+若考虑10km/s的水平风速，分成以下两种情况：1.风速与炮弹方向相同（tail wind）；2.风速与炮弹方向相反（head wind）。这时空气阻力可用下式表示
+  
+<div align=center><a href="http://www.codecogs.com/eqnedit.php?latex=F_{drag,x}=-B_{2}\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left&space;(&space;v_{x}-v_{wind}&space;\right&space;)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?F_{drag,x}=-B_{2}\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left&space;(&space;v_{x}-v_{wind}&space;\right&space;)" title="F_{drag,x}=-B_{2}\left | \vec{v}-\vec_{v_{wind}} \right |\left ( v_{x}-v_{wind} \right )" /></a>
  
+<a href="http://www.codecogs.com/eqnedit.php?latex=F_{drag,y}=-B_{2}\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left&space;v_{y}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?F_{drag,y}=-B_{2}\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left&space;v_{y}" title="F_{drag,y}=-B_{2}\left | \vec{v}-\vec_{v_{wind}} \right |\left v_{y}" /></a>
+
 
