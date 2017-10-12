@@ -50,4 +50,7 @@ while y>=0:
     print(l)
 ```
 ### 考虑风速的影响（vwind=10km/h）
-考虑风速的作用，只需要在炮弹速度表达式中再加入一阻尼项即可
+考虑风速的作用，只需要在炮弹速度表达式中修改阻尼项即可
+<div align=center><a href="http://www.codecogs.com/eqnedit.php?latex=v_{x,i&plus;1}=v_{x,i}-\frac{B_{2}\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|\left&space;(&space;v_{x}-v_{wind}&space;\right&space;)}{m}\Delta&space;t" target="_blank"><img src="http://latex.codecogs.com/gif.latex?v_{x,i&plus;1}=v_{x,i}-\frac{B_{2}\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|\left&space;(&space;v_{x}-v_{wind}&space;\right&space;)}{m}\Delta&space;t" title="v_{x,i+1}=v_{x,i}-\frac{B_{2}\left | \vec{v}-\vec{v_{wind}} \right |\left ( v_{x}-v_{wind} \right )}{m}\Delta t" /></a>
+
+<a href="http://www.codecogs.com/eqnedit.php?latex=v_{y,i&plus;1}=v_{y,i}-\frac{B_{2}\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|v_{y}}{m}\Delta&space;t" target="_blank"><img src="http://latex.codecogs.com/gif.latex?v_{y,i&plus;1}=v_{y,i}-\frac{B_{2}\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|v_{y}}{m}\Delta&space;t" title="v_{y,i+1}=v_{y,i}-\frac{B_{2}\left | \vec{v}-\vec{v_{wind}} \right |v_{y}}{m}\Delta t" /></a>
