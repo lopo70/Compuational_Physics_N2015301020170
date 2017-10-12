@@ -23,5 +23,6 @@
 <div align=center><a href="http://www.codecogs.com/eqnedit.php?latex=F_{drag,x}=-B_{2}\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left&space;(&space;v_{x}-v_{wind}&space;\right&space;)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?F_{drag,x}=-B_{2}\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left&space;(&space;v_{x}-v_{wind}&space;\right&space;)" title="F_{drag,x}=-B_{2}\left | \vec{v}-\vec_{v_{wind}} \right |\left ( v_{x}-v_{wind} \right )" /></a>
  
 <a href="http://www.codecogs.com/eqnedit.php?latex=F_{drag,y}=-B_{2}\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left&space;v_{y}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?F_{drag,y}=-B_{2}\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left&space;v_{y}" title="F_{drag,y}=-B_{2}\left | \vec{v}-\vec_{v_{wind}} \right |\left v_{y}" /></a>
-
+ <div align=left>
+其中，<a href="http://www.codecogs.com/eqnedit.php?latex=\inline&space;\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\theta&space;}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\inline&space;\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\theta&space;}" title="\left | \vec{v}-\vec_{v_{wind}} \right |\left=\sqrt{v^{2}+v_{wind}^{2}-2vv_{wind}cos\theta }" /></a>,
 
