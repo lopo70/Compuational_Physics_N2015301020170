@@ -58,6 +58,10 @@ while y>=0:
 <a href="http://www.codecogs.com/eqnedit.php?latex=v_{y,i&plus;1}=v_{y,i}-\frac{B_{2}\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|v_{y}}{m}\Delta&space;t" target="_blank"><img src="http://latex.codecogs.com/gif.latex?v_{y,i&plus;1}=v_{y,i}-\frac{B_{2}\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|v_{y}}{m}\Delta&space;t" title="v_{y,i+1}=v_{y,i}-\frac{B_{2}\left | \vec{v}-\vec{v_{wind}} \right |v_{y}}{m}\Delta t" /></a>
 
 <a href="http://www.codecogs.com/eqnedit.php?latex=\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\alpha&space;}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\alpha&space;}" title="\left | \vec{v}-\vec{v_{wind}} \right |=\sqrt{v^{2}+v_{wind}^{2}-2vv_{wind}cos\alpha }" /></a>
-
-其中，
+<div align=left>
+这一部分代码只需修改相应的速度分量表达式即可。
+ 
+## 结果分析
+### 改变初始速度的影响
+设定发射角度为45°，初速为700m，炮弹落点为l=21691.737413，轨迹如下所示
 
