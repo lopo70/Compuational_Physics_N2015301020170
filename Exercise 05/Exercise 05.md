@@ -24,7 +24,9 @@
  
 <a href="http://www.codecogs.com/eqnedit.php?latex=F_{drag,y}=-B_{2}\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left&space;v_{y}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?F_{drag,y}=-B_{2}\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left&space;v_{y}" title="F_{drag,y}=-B_{2}\left | \vec{v}-\vec_{v_{wind}} \right |\left v_{y}" /></a>
  <div align=left>
-其中，<a href="http://www.codecogs.com/eqnedit.php?latex=\inline&space;\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\theta&space;}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\inline&space;\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\theta&space;}" title="\left | \vec{v}-\vec_{v_{wind}} \right |\left=\sqrt{v^{2}+v_{wind}^{2}-2vv_{wind}cos\theta }" /></a>,cos\theta =\frac{v_{y,i}}{v}
+其中，
+
+<a href="http://www.codecogs.com/eqnedit.php?latex=\inline&space;\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\theta&space;}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\inline&space;\left&space;|&space;\vec{v}-\vec_{v_{wind}}&space;\right&space;|\left=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\theta&space;}" title="\left | \vec{v}-\vec_{v_{wind}} \right |\left=\sqrt{v^{2}+v_{wind}^{2}-2vv_{wind}cos\theta }" /></a>,cos\theta =\frac{v_{y,i}}{v}
  
 ## 代码思路
  ### 不考虑风速影响
@@ -54,3 +56,8 @@ while y>=0:
 <div align=center><a href="http://www.codecogs.com/eqnedit.php?latex=v_{x,i&plus;1}=v_{x,i}-\frac{B_{2}\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|\left&space;(&space;v_{x}-v_{wind}&space;\right&space;)}{m}\Delta&space;t" target="_blank"><img src="http://latex.codecogs.com/gif.latex?v_{x,i&plus;1}=v_{x,i}-\frac{B_{2}\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|\left&space;(&space;v_{x}-v_{wind}&space;\right&space;)}{m}\Delta&space;t" title="v_{x,i+1}=v_{x,i}-\frac{B_{2}\left | \vec{v}-\vec{v_{wind}} \right |\left ( v_{x}-v_{wind} \right )}{m}\Delta t" /></a>
 
 <a href="http://www.codecogs.com/eqnedit.php?latex=v_{y,i&plus;1}=v_{y,i}-\frac{B_{2}\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|v_{y}}{m}\Delta&space;t" target="_blank"><img src="http://latex.codecogs.com/gif.latex?v_{y,i&plus;1}=v_{y,i}-\frac{B_{2}\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|v_{y}}{m}\Delta&space;t" title="v_{y,i+1}=v_{y,i}-\frac{B_{2}\left | \vec{v}-\vec{v_{wind}} \right |v_{y}}{m}\Delta t" /></a>
+
+<a href="http://www.codecogs.com/eqnedit.php?latex=\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\alpha&space;}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\left&space;|&space;\vec{v}-\vec{v_{wind}}&space;\right&space;|=\sqrt{v^{2}&plus;v_{wind}^{2}-2vv_{wind}cos\alpha&space;}" title="\left | \vec{v}-\vec{v_{wind}} \right |=\sqrt{v^{2}+v_{wind}^{2}-2vv_{wind}cos\alpha }" /></a>
+
+其中，
+
