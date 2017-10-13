@@ -94,3 +94,8 @@ while y>=0:
 ![源代码2](https://raw.githubusercontent.com/lopo70/Computational_Physics_N2015301020170/master/Exercise%2005/Exercise%20502.py)
 
 # 补充：用pygame做一个大炮小游戏
+在看了“用Python和Pygame写游戏-从入门到精通”后，尝试写了一个程序，但是一直报错
+```python
+ModuleNotFoundError: No module named 'pygame.locals'; 'pygame' is not a package
+```
+有可能pygame没有正常安装，版本出现了错误。可是在 IPython中验证可以import pygame。无解
