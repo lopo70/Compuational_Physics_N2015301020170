@@ -99,3 +99,4 @@ while y>=0:
 ModuleNotFoundError: No module named 'pygame.locals'; 'pygame' is not a package
 ```
 有可能pygame没有正常安装，版本出现了错误。可是在 IPython中验证可以import pygame。无解
+![源代码](https://raw.githubusercontent.com/lopo70/Computational_Physics_N2015301020170/master/Exercise%2005/pygame.py)
