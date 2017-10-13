@@ -63,7 +63,10 @@ while y>=0:
  
 ## 结果分析
 ### 改变初始速度的影响
-设定发射角度为45°，初速为700m，炮弹落点为l=21691.737413，轨迹如下所示
+设定发射角度为45°，初速为700m，炮弹落点为L1=21691.737413m，轨迹如下所示
 
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2005/1.png)
 
+保持发射角度不变，初速为707m/s，炮弹落点为L2=21900.1204403m，轨迹如下所示
+
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2005/2.png)
