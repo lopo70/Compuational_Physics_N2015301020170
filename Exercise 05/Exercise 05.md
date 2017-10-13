@@ -81,3 +81,11 @@ while y>=0:
 设发射角度45°，炮弹初速为700m/s，水平风速为10km/h（head wind），炮弹落点为L3=21588.0674307，轨迹如下所示
 
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2005/4.png)
+
+可见，加入10km/s的风速影响后，炮弹落点距离
+
+<a href="http://www.codecogs.com/eqnedit.php?latex=\Delta&space;L(tail&space;wind)=90.6m" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\Delta&space;L(tail&space;wind)=90.6m" title="\Delta L(tail wind)=90.6m" /></a>
+
+<a href="http://www.codecogs.com/eqnedit.php?latex=\Delta&space;L(hwad&space;wind)=-103.7m" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\Delta&space;L(hwad&space;wind)=-103.7m" title="\Delta L(hwad wind)=-103.7m" /></a>
+
+
