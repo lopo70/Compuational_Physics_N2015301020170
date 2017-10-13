@@ -70,3 +70,13 @@ while y>=0:
 保持发射角度不变，初速为707m/s，炮弹落点为L2=21900.1204403m，轨迹如下所示
 
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2005/2.png)
+
+可见，改变初速百分之一后，炮弹落点距离<a href="http://www.codecogs.com/eqnedit.php?latex=\Delta&space;L=208.4m" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\Delta&space;L=208.4m" title="\Delta L=208.4m" /></a>
+### 加入风速的影响
+设发射角度45°，炮弹初速为700m/s，水平风速为10km/h（tail wind），炮弹落点为L3=21782.3007858，轨迹如下所示
+
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2005/3.png)
+
+设发射角度45°，炮弹初速为700m/s，水平风速为10km/h（head wind），炮弹落点为L3=21588.0674307，轨迹如下所示
+
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2005/4.png)
