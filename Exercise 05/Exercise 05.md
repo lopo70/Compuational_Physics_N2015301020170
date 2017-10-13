@@ -88,4 +88,6 @@ while y>=0:
 
 <a href="http://www.codecogs.com/eqnedit.php?latex=\Delta&space;L(hwad&space;wind)=-103.7m" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\Delta&space;L(hwad&space;wind)=-103.7m" title="\Delta L(hwad wind)=-103.7m" /></a>
 
+从以上计算结果可以看出，即使稍微改变初始条件，也会对炮弹的轨迹以及落点产生可观的影响。
 
+# 补充：用pygame做一个大炮小游戏
