@@ -8,4 +8,4 @@
 - [x] Exercise 05: Realistic Projectile Motion
 (https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2005/Exercise%2005.md)
 - [x] Exercise 06: Throwing a base ball: The Effect of Spin
-()
+(https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2006/Exercise%2006.md)
