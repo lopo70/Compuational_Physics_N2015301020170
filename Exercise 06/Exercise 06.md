@@ -24,4 +24,11 @@
 一般情况下，设<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{S_{0}}{m}=4.1\times&space;10^{-4}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{S_{0}}{m}=4.1\times&space;10^{-4}" title="\frac{S_{0}}{m}=4.1\times 10^{-4}" /></a>，<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{B_{2}}{m}=4\times&space;10^{-5}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{B_{2}}{m}=4\times&space;10^{-5}" title="\frac{B_{2}}{m}=4\times 10^{-5}" /></a>棒球出射角度以及速度，自旋角速度为方便起见在程序中设定。
 
 ## 代码实现
+输入任意初速，角度，自旋角速度，出射高度
+```python
+y=float(input("请输入初始高度："))
+angel=float(input("请输入初射角度："))
+w=float(input("请输入自旋角速度："))
+v=float(input("请输入初始速度："))
+```
 
