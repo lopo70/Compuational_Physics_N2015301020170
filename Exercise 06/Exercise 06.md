@@ -21,7 +21,8 @@
 <div align=left>其中
 <div align=center><a href="http://www.codecogs.com/eqnedit.php?latex=v=\sqrt{v_{x,i}^{2}&plus;v_{y,i}^{2}&plus;v_{z,i}^{2}}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?v=\sqrt{v_{x,i}^{2}&plus;v_{y,i}^{2}&plus;v_{z,i}^{2}}" title="v=\sqrt{v_{x,i}^{2}+v_{y,i}^{2}+v_{z,i}^{2}}" /></a>
 <div align=left>
-一般情况下，设<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{S_{0}}{m}=4.1\times&space;10^{-4}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{S_{0}}{m}=4.1\times&space;10^{-4}" title="\frac{S_{0}}{m}=4.1\times 10^{-4}" /></a>，<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{B_{2}}{m}=4\times&space;10^{-5}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{B_{2}}{m}=4\times&space;10^{-5}" title="\frac{B_{2}}{m}=4\times 10^{-5}" /></a>棒球出射角度以及速度，自旋角速度为方便起见在程序中设定。
+一般情况下，设<a href="http://www.codecogs.com/eqnedit.php?latex=\frac{S_{0}}{m}=4.1\times&space;10^{-4}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{S_{0}}{m}=4.1\times&space;10^{-4}" title="\frac{S_{0}}{m}=4.1\times 10^{-4}" /></a>棒球出射角度以及速度，自旋角速度为方便起见在程序中设定。另外棒球drag coefficient由下式给出
+  <div align=center><a href="http://www.codecogs.com/eqnedit.php?latex=\frac{B_{2}}{m}=0.0039&plus;\frac{0.0058}{1&plus;exp[(v-v_{d})/\Delta&space;]}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{B_{2}}{m}=0.0039&plus;\frac{0.0058}{1&plus;exp[(v-v_{d})/\Delta&space;]}" title="\frac{B_{2}}{m}=0.0039+\frac{0.0058}{1+exp[(v-v_{d})/\Delta ]}" /></a>
 
 ## 代码实现
 输入任意初速，角度，自旋角速度，出射高度
