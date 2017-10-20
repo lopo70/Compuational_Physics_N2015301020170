@@ -77,9 +77,9 @@ v=float(input("请输入初始速度："))
 ### 若考虑棒球落地（y=0）
 棒球初速30m/s，初始角度5°，自转角速度2000rpm，初始高度1m
 棒球轨迹在x-y平面上的投影以及z方向偏转与x的关系图
-![]()
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2006/101.png)
 三维曲线图
-![]()
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2006/102.png)
 水平方向偏转z=0.766101647447
 ### 若考虑棒球到达home plate（x=18.288）
 棒球初速30m/s，初始角度5°，自转角速度2000rpm，初始高度1m
