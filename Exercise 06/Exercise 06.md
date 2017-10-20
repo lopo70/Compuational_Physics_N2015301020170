@@ -89,7 +89,7 @@ v=float(input("请输入初始速度："))
 水平方向偏转z=0.501240103989m
 增大出射角度到20°
 棒球轨迹在x-y平面上的投影以及z方向偏转与x的关系图
-![https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2006/e.png]
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2006/e.png)
 水平方向偏转z=0.717086468175m
 ### 结论
 可见，若击球手打出一个curve ball则在home plate的接球手较难接到球。因为curve ball会产生较大偏转，且其偏转程度会随着击球角度，速度，自转速度的增加而增大。![源代码](https://raw.githubusercontent.com/lopo70/Computational_Physics_N2015301020170/master/Exercise%2006/Exercise%20602.py)
