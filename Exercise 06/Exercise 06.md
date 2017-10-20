@@ -52,3 +52,20 @@ v=float(input("请输入初始速度："))
     zlist.append(z)
     n=n+1
   ```
+  为了得出棒球在y=0临界点的z方向偏转量，由上一节讨论炮弹落点时的代码，感谢刘肇宁同学的帮助
+  ```python
+  if y<0:
+    r=ylist[n-1]/(ylist[n-1]-ylist[n])
+    xlist[n]=xlist[n-1]+(xlist[n]-xlist[n-1])*r
+    ylist[n]=0
+    zlist[n]=zlist[n-1]+(zlist[n]-zlist[n-1])*r
+     ```
+  或者,在x=60feet（18.288m）临界点的z方向偏转量
+  ```python
+  if x>=xend:
+    r=(xend-xlist[n-1])/(xlist[n-1]-xlist[n])
+    ylist[n]=ylist[n-1]-(ylist[n-1]-ylist[n])*r
+    zlist[n]=zlist[n-1]+(zlist[n]-zlist[n-1])*r
+    xlist[n]=xend
+    ```
+
