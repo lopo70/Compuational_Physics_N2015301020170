@@ -45,9 +45,8 @@ v=float(input("请输入初始速度："))
     vy=vy-9.8*t
     x=x+vx*t
     y=y+vy*t
-    z=z+vz*t
-    t=t+0.001
-    xlist.append(x)
+    z=z+vz*t
+    xlist.append(x)
     ylist.append(y)
     zlist.append(z)
     n=n+1
@@ -84,4 +83,10 @@ v=float(input("请输入初始速度："))
 ### 若考虑棒球到达home plate（x=18.288）
 棒球初速30m/s，初始角度5°，自转角速度2000rpm，初始高度1m
 棒球轨迹在x-y平面上的投影以及z方向偏转与x的关系图
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2006/c.png)
+三维曲线图
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2006/d.png)
+水平方向偏转z=0.501240103989m
+### 结论
+可见，若击球手打出一个curve ball则在home plate的接球手
 
