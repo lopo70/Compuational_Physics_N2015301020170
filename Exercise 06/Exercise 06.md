@@ -26,6 +26,7 @@
 <div align=center><a href="http://www.codecogs.com/eqnedit.php?latex=\frac{B_{2}}{m}=0.0039&plus;\frac{0.0058}{1&plus;exp[(v-v_{d})/\Delta&space;]}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\frac{B_{2}}{m}=0.0039&plus;\frac{0.0058}{1&plus;exp[(v-v_{d})/\Delta&space;]}" title="\frac{B_{2}}{m}=0.0039+\frac{0.0058}{1+exp[(v-v_{d})/\Delta ]}" /></a>
 
 <div align=left>
+其中vd=35m/s，\Delta=5
 
 ## 代码实现
 输入任意初速，角度，自旋角速度，出射高度
