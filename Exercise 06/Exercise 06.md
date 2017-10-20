@@ -68,4 +68,11 @@ v=float(input("请输入初始速度："))
     zlist[n]=zlist[n-1]+(zlist[n]-zlist[n-1])*r
     xlist[n]=xend
     ```
+   最后，绘出棒球轨迹在x-y平面上的投影以及z方向偏转与x的关系图，也可以绘制x-y-z三维轨迹曲线
+   
+## 结果分析
+若考虑棒球落地（y=0），棒球轨迹在x-y平面上的投影以及z方向偏转与x的关系图
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2006/11.png)
+三维曲线图
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2006/12.png)
 
