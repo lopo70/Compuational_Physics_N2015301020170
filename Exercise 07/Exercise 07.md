@@ -15,3 +15,28 @@
 <div align=center>
 
 <a href="http://www.codecogs.com/eqnedit.php?latex=\left&space;|&space;t-\frac{2n\pi&space;}{\Omega&space;_{D}}&space;\right&space;|<&space;\frac{\Delta&space;t}{2}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\left&space;|&space;t-\frac{2n\pi&space;}{\Omega&space;_{D}}&space;\right&space;|<&space;\frac{\Delta&space;t}{2}" title="\left | t-\frac{2n\pi }{\Omega _{D}} \right |< \frac{\Delta t}{2}" /></a>
+<div align=left>
+
+## 代码实现
+代码主循环用时间取值小于1000来实现
+```python
+while t<10000:
+    ω=ω-(math.sin(math.radians(θ))+q*ω-FD*math.sin(ΩD*t))*Δt
+    θ=θ+ω*Δt
+``` 
+为了使θ的值总是处于（-3.14，3.14）之间，需要角度超过范围后加减360°
+```python
+if -math.pi>math.radians(θ):
+        θ=θ+360
+    if math.pi<math.radians(θ):
+        θ=θ-360
+``` 
+而判断时间与驱动力同向的代码可以用一个正整数循环来实现
+```python
+while n in range(0,65535):
+        if -0.005<(t-2*math.pi*n/ΩD) and (t-2*math.pi*n/ΩD)<0.005:
+            xlist1.append(math.radians(θ1))
+            ylist1.append(ω1)
+        n=n+1
+``` 
+可见只有满足时间条件的ω值会被加入y轴序列之中
