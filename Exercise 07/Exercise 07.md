@@ -70,3 +70,8 @@ while n in range(0,65535):
 <div align=center>
 
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/pundul%5D.png)
+
+<div align=left>
+观察可以得出
+1.在受迫振动相位，但摆动频率随摆角的变化有一定规律 
+2.吸引子随受迫振动相位周期性 
