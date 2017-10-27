@@ -59,6 +59,14 @@ while n in range(0,65535):
 上面的相图任然较复杂，为进一步看到混沌运动的内禀特征，我们只取驱动力周期的整数倍时刻去观察摆的运动，把这些时刻的相画在相图上，得到所谓的庞加莱截面。
 
 ### FD=1.2时的庞加莱截面图
+驱动力相位为2π时
 <div align=center>
 
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/2.png)
+
+<div align=left>
+驱动力相位为π/2时
+
+<div align=center>
+
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/pundul%5D.png)
