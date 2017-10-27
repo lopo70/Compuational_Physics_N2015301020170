@@ -40,3 +40,15 @@ while n in range(0,65535):
         n=n+1
 ``` 
 可见只有满足时间条件的ω值会被加入y轴序列之中
+最后，绘制出相应的ω-θ图以及庞加莱截面图即可。
+
+## 结果分析
+
+### FD=0.5时的ω-θ图像
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/3.png)
+
+### FD=1.2时的ω-θ图像
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/4.png)
+
+### FD=1.2时的庞加莱截面图
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/2.png)
