@@ -46,12 +46,17 @@ while n in range(0,65535):
 
 ### FD=0.5时的ω-θ图像
 <div align=center>
+
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/3.png)
 <div align=left>
+
 ### FD=1.2时的ω-θ图像
 <div align=center>
+
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/4.png)
 <div align=left>
+
 ### FD=1.2时的庞加莱截面图
 <div align=center>
+
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/2.png)
