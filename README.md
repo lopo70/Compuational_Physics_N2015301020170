@@ -11,3 +11,5 @@
 (https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2006/Exercise%2006.md)
 - [x] Exercise 07: Oscillatory Motion and Chaos
 (https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/Exercise%2007.md)
+- [x] Exercise 08 Routes to Chaos: Period Doubling
+(https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2008/Exercise%2008.md)
