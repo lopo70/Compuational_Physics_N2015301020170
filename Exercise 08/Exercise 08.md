@@ -15,5 +15,37 @@
 
 <a href="http://www.codecogs.com/eqnedit.php?latex=\left&space;|&space;t-\frac{2n\pi&space;}{\Omega&space;_{D}}&space;\right&space;|<&space;\frac{\Delta&space;t}{2}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?\left&space;|&space;t-\frac{2n\pi&space;}{\Omega&space;_{D}}&space;\right&space;|<&space;\frac{\Delta&space;t}{2}" title="\left | t-\frac{2n\pi }{\Omega _{D}} \right |< \frac{\Delta t}{2}" /></a>
 <div align=left>
+注意到为了先使摆的运动趋于稳定，从第300个驱动力周期开始计数。
 
 ## 代码实现
+程序主循环用F_D取值小于1.52来实现
+```python
+while F_D<1.52:
+    ω=ω0
+    θ=θ0
+    t=0
+    F_D=F_D+0.01
+``` 
+次循环用时间取值小于10000来实现
+```python
+while t<10000:
+        ω=ω-((g/l)*math.sin(θ)+q*ω-F_D*math.sin(Ω_D*t))*dt
+        θ=θ+ω*dt
+        t=t+dt
+``` 
+为了使θ的值总是处于（-3.14，3.14）之间，需要角度超过范围后加减2π
+```python
+if θ>=math.pi:
+    θ=θ-2*math.pi
+elif θ<-math.pi:
+    θ=θ+2*math.pi
+``` 
+而判断时间与驱动力同向的代码可以用一个正整数循环（且只计算时间在300到400个驱动力周期的点）来实现
+```python
+for n in range(300，400):
+       if abs(t-math.pi*n*2/(Ω_D))<0.005:
+               F_D_list.append(F_D)
+               θ_list.append(θ)
+``` 
+可见只有满足时间条件的θ值会被加入y轴序列之中
+最后，绘制出相应的θ-F_D图即bifurcation diagram即可。
