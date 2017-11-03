@@ -60,6 +60,9 @@ for n in range(300，400):
 <div align=center>
 
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2008/result2.png)
+<div align=left>
+    
+![源代码](https://raw.githubusercontent.com/lopo70/Computational_Physics_N2015301020170/master/Exercise%2008/2.py)
    
 
 
