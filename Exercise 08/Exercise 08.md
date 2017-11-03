@@ -58,6 +58,7 @@ for n in range(300，400):
 从上图可以看出，F_D在1.5左右，θ的值出现了大幅度波动，归于“混沌”状态。
 由于F_D在1.48左右数据点较密，无法分辨，所以在此处放大的bifurcation diagram如下
 <div align=center>
+
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2008/result2.png)
    
 
