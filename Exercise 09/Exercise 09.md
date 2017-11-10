@@ -7,6 +7,8 @@
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Cvec%7Bv%7D_%7Bi%2C%5Cperp%20%7D%3D%28%5Cvec%7Bv%7D_%7Bi%7D%5Ccdot%20%5Chat%7Bn%7D%29%5Chat%7Bn%7D%20%5C%5C%20%5Cvec%7Bv%7D_%7Bi%2C%5Cparallel%20%7D%3D%5Cvec%7Bv%7D_%7Bi%7D-%5Cvec%7Bv%7D_%7Bi%2C%5Cperp%20%7D)<br>
 所以碰撞后的速度为<br>
 ![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Cvec%7Bv%7D_%7Bf%2C%5Cperp%20%7D%3D-%5Cvec%7Bv%7D_%7Bi%2C%5Cperp%20%7D%20%5C%5C%20%5Cvec%7Bv%7D_%7Bf%2C%5Cparallel%20%7D%3D%5Cvec%7Bv%7D_%7Bi%2C%5Cparallel%20%7D)
+坐标方程为
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2009/捕获1.PNG)
 ## 结果分析
 * Circular stadium<br>
 ![](http://latex.codecogs.com/gif.latex?x_0%3D0.2%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
