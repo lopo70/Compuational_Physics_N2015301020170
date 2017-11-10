@@ -19,8 +19,7 @@
 
 2. ![](http://latex.codecogs.com/gif.latex?x_0%3D0.2%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6%2C%5Calpha%20%3D0.01)<br>
 ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/3.png)
-The figure is quite different from that in the textbook. Try to change the value of ![](http://latex.codecogs.com/gif.latex?x_0).<br>
-![](http://latex.codecogs.com/gif.latex?x_0%3D0%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6%2C%5Calpha%20%3D0.01)<br>
+
 
 
 * Elliptical table<br>
