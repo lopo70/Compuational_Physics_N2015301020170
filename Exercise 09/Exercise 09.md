@@ -39,12 +39,6 @@ Then, the figure is similar to that in the textbook.
  
  3. ![](http://latex.codecogs.com/gif.latex?x_0%3D3%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/7.png)
- 
- 4. ![](http://latex.codecogs.com/gif.latex?x_0%3D4.5%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/8.png)
- 
- 5. ![](http://latex.codecogs.com/gif.latex?x_0%3D4.8%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/9.png)
 
 2. ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bx%5E2%7D%7B4%7D&plus;%5Cfrac%7By%5E2%7D%7B3%7D%3D1)<br>
  
@@ -56,12 +50,6 @@ Then, the figure is similar to that in the textbook.
  
  3. ![](http://latex.codecogs.com/gif.latex?x_0%3D1%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
  ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/12.png)
- 
- 4. ![](http://latex.codecogs.com/gif.latex?x_0%3D1.5%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/13.png)
- 
- 5. ![](http://latex.codecogs.com/gif.latex?x_0%3D1.8%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
- ![](https://github.com/whucyb/computational_physics_N2014301020067/blob/master/Exercise_09/14.png)
 
 * A square table with a circulai interior wall located in the center<br>
 ![](http://latex.codecogs.com/gif.latex?x_0%3D0.7%2Cy_0%3D0%2Cv_0%3D1%2C%5Ctheta_0%3D%5Cpi/6)<br>
