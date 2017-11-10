@@ -13,3 +13,5 @@
 (https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2007/Exercise%2007.md)
 - [x] Exercise 08 Routes to Chaos: Period Doubling
 (https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2008/Exercise%2008.md)
+- [x] Exercise 09: The Billiard Problem
+(https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2009/Exercise%2009.md)
