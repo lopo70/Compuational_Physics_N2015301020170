@@ -17,3 +17,5 @@
 (https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2009/Exercise%2009.md)
 - [x] Exercise 10: Three Body Problem
 (https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2010/Exercise%2010.md)
+- [x] Exercise 11: Potentials And Fields
+(https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2011/Exercise%2011.md)
