@@ -18,6 +18,7 @@
 这一道题采用relaxation method，这种方法可以用来数值求解以拉普拉斯方程为代表的一类所谓的“椭圆偏微分方程”。电容器的边界条件如下图所示
 
 <div align=center>
+
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2011/%E6%8D%95%E8%8E%B71.PNG)
 
 <div align=left>
@@ -28,6 +29,7 @@ Jacobi方法的改进版是Gauss-Seidel方法。在计算中，我们总是算�
 电容器周围电势分布如图所示
 
 <div align=center>
+
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2011/1.PNG)
 
 <div align=left>
@@ -36,3 +38,8 @@ Jacobi方法的改进版是Gauss-Seidel方法。在计算中，我们总是算�
 <div align=center>
 
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2011/2.png)
+<div align=left>
+由电势分布推导出的电场分布
+<div align=center>
+
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2011/3.png)
