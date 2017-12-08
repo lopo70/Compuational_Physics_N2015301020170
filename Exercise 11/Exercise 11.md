@@ -43,3 +43,7 @@ Jacobi方法的改进版是Gauss-Seidel方法。在计算中，我们总是算�
 <div align=center>
 
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2011/3.png)
+
+<div align=left>
+
+![源代码](https://raw.githubusercontent.com/lopo70/Computational_Physics_N2015301020170/master/Exercise%2011/2.py)
