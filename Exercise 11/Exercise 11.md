@@ -13,3 +13,10 @@
 
 <div align=center>
 <a href="http://www.codecogs.com/eqnedit.php?latex=V(i,j)=[V(i-1,j)&plus;V(i&plus;1,j)&plus;V(i,j-1)&plus;V(i,j&plus;1)]/4" target="_blank"><img src="http://latex.codecogs.com/gif.latex?V(i,j)=[V(i-1,j)&plus;V(i&plus;1,j)&plus;V(i,j-1)&plus;V(i,j&plus;1)]/4" title="V(i,j)=[V(i-1,j)+V(i+1,j)+V(i,j-1)+V(i,j+1)]/4" /></a>
+  
+<div align=left>
+这一道题采用relaxation method，这种方法可以用来数值求解以拉普拉斯方程为代表的一类所谓的“椭圆偏微分方程”。电容器的边界条件如下图所示
+
+![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2011/%E6%8D%95%E8%8E%B71.PNG)
+
+Jacobi方法的改进版是Gauss-Seidel方法。在计算中，我们总是算完一个点再算另一个点，也就是逐点更新计算结果。该方法主要的改进是在计算某一点的电势时，使用之前的点已经更新后的数据。
