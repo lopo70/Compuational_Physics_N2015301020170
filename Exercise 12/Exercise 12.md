@@ -35,3 +35,8 @@
 
 ![](https://github.com/lopo70/Computational_Physics_N2015301020170/blob/master/Exercise%2012/3.gif)
 <div align=left> 
+
+## 结论
+任意两个波的传播互相独立，不会影响彼此之间的传播。
+![源代码](https://raw.githubusercontent.com/lopo70/Computational_Physics_N2015301020170/master/Exercise%2012/1.py)
+
